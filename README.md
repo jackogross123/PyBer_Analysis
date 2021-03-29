@@ -11,9 +11,13 @@ The purpose of the challenge analysis was to use Pandas and MatPlotLib to create
 ### Deliverable 1: A ride sharing DataFrame that summarizes ride data by city type.
 ![Deliverable_1](https://github.com/jackogross123/PyBer_Analysis/blob/main/Resources/PyBer_summary_DF.png)
 
+By creating multiple different dataframes by using the groupby(), count(), and sum() function, I was able to create this DataFrame to depict how ride sharing data differed across the three different city types. 
+
 ### Deliverable 2: A multiple-line chart of total fares for each city type.
 ![Deliverable_2](https://github.com/jackogross123/PyBer_Analysis/blob/main/Resources/Total_fare_by_city_type_graph.png)
+
+By creating multiple different data series and using the groupby(), loc(), resample(), and sum() formulas I was able to create this graph to depict by using MatPlotLib to show the relationship between time and daily fares. There are three different lines to represent 
 ## Summary
 
 ### Reccomendations 
-I think that one study that should be purused is measuring the length of the rides and the fare prices. It would be helpful to explore how different length rides (time and physical distance) differ within the three differnt city types.
+I think that one study that should be purused is measuring the length of the rides and the fare prices. It would be helpful to explore how different length rides (time and physical distance) differ within the three different city types.
